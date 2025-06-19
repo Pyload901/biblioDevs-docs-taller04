@@ -1,0 +1,15 @@
+# MkDocs build output
+site/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE files
+.vscode/
+
+# GitHub Pages
+.github/workflows/gh-pages.yml.bak

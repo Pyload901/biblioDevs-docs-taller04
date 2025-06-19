@@ -1,0 +1,63 @@
+site_name: BiblioDevs - Gestión de Libros
+site_description: Documentación oficial de BiblioDevs, tu aplicación PHP para gestionar libros leídos
+site_author: BiblioDevs Team
+site_url: https://bibliodevs.github.io/docs/
+
+# Repository
+repo_name: BiblioDevs/docs
+repo_url: https://github.com/bibliodevs/docs
+
+# Theme configuration
+theme:
+  name: material
+  language: es
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+
+# Extensions
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - tables
+  - attr_list
+  - md_in_html
+
+# Navigation
+nav:
+  - Inicio: index.md
+  - Cómo usar BiblioDevs: uso.md
+  - Preguntas Frecuentes: faq.md
+
+# Plugins
+plugins:
+  - search:
+      lang: es
