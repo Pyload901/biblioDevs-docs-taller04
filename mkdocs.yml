@@ -1,11 +1,11 @@
 site_name: BiblioDevs - Gestión de Libros
 site_description: Documentación oficial de BiblioDevs, tu aplicación PHP para gestionar libros leídos
 site_author: BiblioDevs Team
-site_url: https://bibliodevs.github.io/docs/
+site_url: https://Pyload901.github.io/biblioDevs-docs-taller04/
 
 # Repository
-repo_name: BiblioDevs/docs
-repo_url: https://github.com/bibliodevs/docs
+repo_name: Pyload901/biblioDevs-docs-taller04
+repo_url: https://github.com/Pyload901/biblioDevs-docs-taller04
 
 # Theme configuration
 theme:
